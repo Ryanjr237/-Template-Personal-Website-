@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Ryan Gara</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="logo" href="index.html">Ryan Gara<span class="dot">.</span></a>
+      <nav class="nav-links">
+        <a href="a-propos.html">À propos</a>
+        <a href="scene.html">Scène</a>
+        <a href="collaborer.html">Travailler avec Ryan</a>
+        <a href="glow-101.html">Glow 101</a>
+        <a href="presse.html">Presse</a>
+      </nav>
+      <a class="btn btn-yellow header-cta" href="mailto:gararyanjr@gmail.com">Email</a>
+      <button class="menu-toggle" type="button" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <nav class="mobile-nav">
+    <a href="contact.html">Contact</a>
+    <a href="collaborer.html">Collaborer</a>
+    <a href="index.html">Accueil</a>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="crumbs" data-reveal><a href="index.html">Accueil</a> · Contact</p>
+      <h1 data-reveal data-reveal-delay="1">Dites à Ryan ce que vous construisez</h1>
+      <p class="lede" data-reveal data-reveal-delay="2">Scène, campagne, cohorte, presse. Chaque demande sérieuse reçoit une réponse personnelle.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <div data-reveal>
+        <p class="eyebrow">Direct</p>
+        <h2>Écrire</h2>
+        <p class="sub"><a href="mailto:gararyanjr@gmail.com">gararyanjr@gmail.com</a></p>
+        <p class="sub" style="margin-top:8px"><a href="https://www.instagram.com/ryan_gara" target="_blank" rel="noopener">Instagram @ryan_gara</a></p>
+      </div>
+      <form class="form-grid" data-form data-reveal data-reveal-delay="1">
+        <div>
+          <label for="nom">Nom</label>
+          <input id="nom" name="nom" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+        </div>
+        <div>
+          <label for="type">Type de demande</label>
+          <select id="type" name="type">
+            <option>Scène / keynote</option>
+            <option>Partenariat de marque</option>
+            <option>Formation interne</option>
+            <option>Glow 101</option>
+            <option>Presse</option>
+            <option>Autre</option>
+          </select>
+        </div>
+        <div>
+          <label for="msg">Le projet</label>
+          <textarea id="msg" name="msg" required placeholder="Dates, audience, ce que vous voulez que la salle retienne…"></textarea>
+        </div>
+        <button class="btn btn-dark" type="submit">Envoyer</button>
+        <p class="form-note"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="legal"><span>© 2026 Ryan Gara.</span></div>
+    </div>
+  </footer>
+  <script src="js/main.js?v=2"></script>
+</body>
+</html>
